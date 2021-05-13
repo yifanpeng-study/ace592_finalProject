@@ -2,7 +2,7 @@
 ### ACE592 SAE final project - 2021 Spring
 ### Chang Cai (ACE), Yuqing Han (ECON) and Yifan Peng (ACE)
 
-**Description**: This repository contains all the scripts that are necessary to replicate the analysis. All data used for this analysis are public accessible. The replication files are sufficient for fully replicating our work.
+**Description**: This repository contains all the scripts that are necessary to replicate the analysis. All data used for this analysis are public accessible. Except for the seven-day restriction of Twitter standard APT, the replication files are sufficient for fully replicating our work.
 
 ### Brief guide to scripts inside "code":
 - **`1_batchScraping.ipynb`**:  Extract historical tweets via Twitter API based on search terms such as "Bitcoin" and store the output in a csv file. 
