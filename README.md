@@ -4,7 +4,7 @@
 
 **Description**: This repository contains all the scripts that are necessary to replicate the analysis. All data used for this analysis are public accessible. The replication files are sufficient for fully replicating our work.
 
-### Brief guide to scripts inside: "code"
+### Brief guide to scripts inside "code":
 - **`1_batchScraping.ipynb`**:  Extract historical tweets via Twitter API based on search terms such as "Bitcoin" and store the output in a csv file. 
 - **`2_sentiment_score_processing.ipynb`**: Initial processing of the tweets and calculation of the sentiment score using cleaned text. It returns the data frame of minute-level sentiment.
 - **`3_yahoo_api_data.ipynb`**: Download cryptocurrency prices and stock market index via [Yahoo Finance API](https://finance.yahoo.com/quotes/API,Documentation/view/v1/?guccounter=1). It generates four csv files.
